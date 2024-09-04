@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -21,12 +23,29 @@
         <p>This is my first website project. I'm excited to see what you'll create!</p>
         <h2>Gallery</h2>
         <div class="gallery">
-            <img src="images/Chameleon.webp" alt="Chameleon" width="500">
-            <img src="images/GB_Parrots.webp" alt="Parrot" width="500">
-            <img src="images/Sparrow.webp" alt="Sparrow" width="500">
+            <img src="images/birdsandanimals/Chameleon.webp" alt="Chameleon" width="500">
+            <img src="images/birdsandanimals/GB_Parrots.webp" alt="Parrot" width="500">
+            <img src="images/birdsandanimals/Sparrow.webp" alt="Sparrow" width="500">
         </div>
         <a href="https://www.w3schools.com/" target="_blank">To learn Web Development</a>
         <a href="https://www.w3schools.com/html/" target="_blank">To learn HTML</a>
     </main>
+    <footer>
+        <p>© 2021 My Website. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><img src="images/socialmedia/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/socialmedia/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/socialmedia/instagram.png" alt="Instagram"></a>
+        </div>
+        <div class="contact-form">
+            <h3>Contact Us</h3>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </footer>
 </body>
 </html>
